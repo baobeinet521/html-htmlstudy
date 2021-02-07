@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatiable" content="ie=edge">
+    <title>我的第一个html项目</title>
+</head>
+
+<body>
+    <h1>我的第一个标题1</h1>
+    <!--希望在不产生一个新段落的情况下进行换行（新行），请使用 <br> 标签-->
+    <!--<br /> 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，因此它没有结束标签。-->
+    <p>我的<br>我希望不要产生一个新段落的情况下换行<br>第一个段落。</p>
+    <b>我的姓名，加粗文本</b><br>
+    <strong>这个文本是重要的通过strong标签加粗</strong>
+    <h2>这是标题2</h2>
+    <i>斜体文本，悄咪咪的</i><br>
+    <em>这个斜体文字是通过em来显示的</em><br>
+    <small>这是缩小字体</small><br>
+    <big>这个文本字体是被放大了</big>
+    <p>这是段落2</p>
+    <pre>这个标签是pre  显示   如何使用pre对空格
+
+        和空行
+        进行使用和控制
+    </pre>
+    <h3>这是标题3</h3>
+    <code>这是code，具体是啥我也不知道</code><br /><br />
+    <sub>这是下标</sub>和<sup>这是上标</sup><br /><br />
+    <!--连接-->
+    <a href="https://www.runoob.com">菜鸟教程</a>
+    <h4>这是标题4</h4>
+    <h5>这是标题5</h5>
+    <h6>这是标题6</h6>
+
+    <code>计算机输出</code>
+    <br />
+    <kbd>键盘输入</kbd>
+    <br />
+    <tt>打字机文本</tt>
+    <br />
+    <samp>计算机代码样本</samp>
+    <br />
+    <var>计算机变量</var>
+    <br />
+    <p>
+        <b>注释：</b>这些标签常用于显示计算机/编程代码
+    </p>
+
+    <address>
+        写给<a href="mailto:zhengdan_nacy@63.com">zhengdan</a>.<br>
+        访问我们:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <br>
+    <br>
+
+    <abbr title="希望我所有的梦想都可以实现">希望</abbr>
+    <br>
+    <acronym title="world width wide">www</acronym>
+    <p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+    <p>仅对于 IE 5 中的 acronym 元素有效。</p>
+    <p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+    <br>
+
+    <p>该段落文字从左到右显示。</p>
+    <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+
+    <br>
+    <p>WWF's goal is to:
+        <q>Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p>
+
+    <br>
+    <blockquote>
+        定义长的引用，到底是多长，我也不知道，Java是一门面向对象编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程
+        [1] 。
+        Java具有简单性、面向对象、分布式、健壮性、安全性、平台独立与可移植性、多线程、动态性等特点 [2] 。Java可以编写桌面应用程序、Web应用程序、分布式系统和嵌入式系统应用程序等 [3] 。</blockquote>
+
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    <br>
+    <cite>定义引用引证</cite>、
+    <br>
+    <dfn>定义一个定义项目</dfn>
+
+    <p><a href="C:/zd/zdgitworksapce/MyFirstHtml/index.html">本文本</a>是一个指向本网站的中的一个页面的连接</p>
+    <p><a href="https://www.baidu.com">本文本</a> 是一个指向万维网上的页面的链接。</p>
+    <p><a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer">访问百度!</a>如果你将 target 属性设置为
+        &quot;_blank&quot;, 链接将在新窗口打开。</p>
+    <p></p>
+
+    <!--id属性可用于创建在一个HTML文档书签标记。
+      提示: 书签是不以任何特殊的方式显示，在HTML文档中是不显示的，所以对于读者来说是隐藏的。
+    注释： 请始终将正斜杠添加到子文件夹。假如这样书写链接：href="https://www.runoob.com/html"，
+    就会向服务器产生两次 HTTP 请求。这是因为服务器会添加正斜杠到这个地址，然后创建一个新的请求，
+    就像这样：href="https://www.runoob.com/html/"。-->
+    <!--在HTML文档中插入ID:-->
+    <a id="tips">有用的提示部分</a><br>
+    <!--在HTML文档中创建一个链接到"有用的提示部分(id="tips"）"：-->
+    <a href="#tips">访问有用的提示部分</a>
+    <br>
+
+    <!--从另一个页面创建一个链接到"有用的提示部分(id="tips"）"：-->
+    <a href="https://www.runoob.com/html/html-links.html#tips">
+        访问有用的提示部分</a>
+    <br>
+
+    <!--学习笔记  <img>中的alt属性内容是图片无法显示时，图片位置显示的内容 src引用文件夹下面的图片前面不加/ 如要引用文件夹下面图片
+    正确引用是：src="images/smiley_have_border.gif" src="/images/smiley_have_border.gif"前面加/图片将无法显示  -->
+    <p>创建图片链接:
+        <a href="https://www.runoob.com/html/html-tutorial.html">
+            <img border="10" src="images/smiley_have_border.gif" alt="HTML 教程" width="32" height="32"></a>
+    </p>
+
+    <p>无边框的图片链接:
+        <a href="https://www.runoob.com/html/html-tutorial.html">
+            <img border="0" src="images/smiley_noborder.gif" alt="HTML 教程" width="32" height="32"></a>
+    </p>
+
+    <p>
+        <a href="C:\zd\zdgitworksapce\MyFirstHtml\chartpter.html">跳转到章节页面</a>
+    </p>
+
+    <p>
+        <a href="C:\zd\zdgitworksapce\MyFirstHtml\email.html">跳转到邮件相关页面</a>
+    </p>
+    <p>
+        <a href="C:\zd\zdgitworksapce\MyFirstHtml\headstudy.html">跳转到html头部学习相关页面</a>
+    </p>
+</body>
+
+</html>
